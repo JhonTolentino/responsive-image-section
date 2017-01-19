@@ -8,10 +8,15 @@ html {
   font-family: sans-serif;
   background-color: #e2e2e2;
   padding: 1rem, 2rem;
+  margin: auto;
 }
 
 strong, h1 {
   color: #000;
+}
+
+strong, h1, p {
+  text-align: left;
 }
 
 .btn {
@@ -23,6 +28,7 @@ strong, h1 {
 .img-flex {
   max-width: 100%;
   height: auto;
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -37,6 +43,9 @@ strong, h1 {
     height: auto;
   }
 
+  strong, h1, p {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -51,6 +60,10 @@ strong, h1 {
     height: auto;
   }
 
+  strong, h1, p {
+    text-align: center;
+  }
+  
 }
 
 @media only screen and (min-width: 60em) {
