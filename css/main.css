@@ -6,7 +6,18 @@
 
 html {
   font-family: sans-serif;
+  background-color: #e2e2e2;
+  padding: 1rem, 2rem;
+}
 
+strong, h1 {
+  color: #000;
+}
+
+.btn {
+  color: #555;
+  padding: 0.5rem, 0.75rem;
+  border-radius: 4px;
 }
 @media only screen and (min-width: 25em) {
 
